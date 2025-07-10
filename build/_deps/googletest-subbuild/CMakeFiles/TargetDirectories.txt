@@ -1,0 +1,3 @@
+C:/Users/Tersm/source/repos/Project2/Project2/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/Users/Tersm/source/repos/Project2/Project2/build/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/Tersm/source/repos/Project2/Project2/build/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir

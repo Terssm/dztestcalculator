@@ -1,0 +1,2322 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python310\\Scripts\\"
+        - "C:\\Program Files\\Python310\\"
+        - "D:\\\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0430\u0438 \u0433\u043e\u043b\u043e\u0441\\RVC-beta0717"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OSPanel\\bin"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tersm\\.dotnet\\tools"
+        - "C:\\Users\\Tersm\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+      Сборка начата 10.07.2025 13:31:29.
+      
+      Проект "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.49
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/4.1.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Python310/Scripts/"
+      - "C:/Program Files/Python310/"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/OSPanel/bin/"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tersm/.dotnet/tools/"
+      - "C:/Users/Tersm/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python310\\Scripts\\"
+        - "C:\\Program Files\\Python310\\"
+        - "D:\\\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0430\u0438 \u0433\u043e\u043b\u043e\u0441\\RVC-beta0717"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OSPanel\\bin"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tersm\\.dotnet\\tools"
+        - "C:\\Users\\Tersm\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Python310/Scripts/"
+      - "C:/Program Files/Python310/"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/OSPanel/bin/"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tersm/.dotnet/tools/"
+      - "C:/Users/Tersm/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files/Python310/Scripts/lld-link.com"
+      - "C:/Program Files/Python310/Scripts/lld-link.exe"
+      - "C:/Program Files/Python310/Scripts/lld-link"
+      - "C:/Program Files/Python310/lld-link.com"
+      - "C:/Program Files/Python310/lld-link.exe"
+      - "C:/Program Files/Python310/lld-link"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/lld-link.com"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/lld-link.exe"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/lld-link"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link"
+      - "C:/Program Files/Razer Chroma SDK/bin/lld-link.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/lld-link.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/lld-link"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/lld-link.com"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/lld-link.exe"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files (x86)/Incredibuild/lld-link.com"
+      - "C:/Program Files (x86)/Incredibuild/lld-link.exe"
+      - "C:/Program Files (x86)/Incredibuild/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/lld-link.com"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/OSPanel/bin/lld-link.com"
+      - "C:/OSPanel/bin/lld-link.exe"
+      - "C:/OSPanel/bin/lld-link"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Tersm/.dotnet/tools/lld-link.com"
+      - "C:/Users/Tersm/.dotnet/tools/lld-link.exe"
+      - "C:/Users/Tersm/.dotnet/tools/lld-link"
+      - "C:/Users/Tersm/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Tersm/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Tersm/AppData/Roaming/npm/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python310\\Scripts\\"
+        - "C:\\Program Files\\Python310\\"
+        - "D:\\\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0430\u0438 \u0433\u043e\u043b\u043e\u0441\\RVC-beta0717"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OSPanel\\bin"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tersm\\.dotnet\\tools"
+        - "C:\\Users\\Tersm\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Python310/Scripts/"
+      - "C:/Program Files/Python310/"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/OSPanel/bin/"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tersm/.dotnet/tools/"
+      - "C:/Users/Tersm/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python310\\Scripts\\"
+        - "C:\\Program Files\\Python310\\"
+        - "D:\\\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0430\u0438 \u0433\u043e\u043b\u043e\u0441\\RVC-beta0717"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OSPanel\\bin"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tersm\\.dotnet\\tools"
+        - "C:\\Users\\Tersm\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Python310/Scripts/"
+      - "C:/Program Files/Python310/"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/OSPanel/bin/"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tersm/.dotnet/tools/"
+      - "C:/Users/Tersm/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files/Python310/Scripts/mt.com"
+      - "C:/Program Files/Python310/Scripts/mt.exe"
+      - "C:/Program Files/Python310/Scripts/mt"
+      - "C:/Program Files/Python310/mt.com"
+      - "C:/Program Files/Python310/mt.exe"
+      - "C:/Program Files/Python310/mt"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/mt.com"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/mt.exe"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/mt"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/mt.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/mt.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/mt"
+      - "C:/Program Files/Razer Chroma SDK/bin/mt.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/mt.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/mt"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/mt.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/mt.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/mt"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/mt.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/mt.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/mt"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/mt.com"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/mt.exe"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files (x86)/Incredibuild/mt.com"
+      - "C:/Program Files (x86)/Incredibuild/mt.exe"
+      - "C:/Program Files (x86)/Incredibuild/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/mt.com"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/mt.exe"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/OSPanel/bin/mt.com"
+      - "C:/OSPanel/bin/mt.exe"
+      - "C:/OSPanel/bin/mt"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/Tersm/.dotnet/tools/mt.com"
+      - "C:/Users/Tersm/.dotnet/tools/mt.exe"
+      - "C:/Users/Tersm/.dotnet/tools/mt"
+      - "C:/Users/Tersm/AppData/Roaming/npm/mt.com"
+      - "C:/Users/Tersm/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/Tersm/AppData/Roaming/npm/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python310\\Scripts\\"
+        - "C:\\Program Files\\Python310\\"
+        - "D:\\\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0430\u0438 \u0433\u043e\u043b\u043e\u0441\\RVC-beta0717"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OSPanel\\bin"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tersm\\.dotnet\\tools"
+        - "C:\\Users\\Tersm\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Python310/Scripts/"
+      - "C:/Program Files/Python310/"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/OSPanel/bin/"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tersm/.dotnet/tools/"
+      - "C:/Users/Tersm/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python310\\Scripts\\"
+        - "C:\\Program Files\\Python310\\"
+        - "D:\\\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0430\u0438 \u0433\u043e\u043b\u043e\u0441\\RVC-beta0717"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OSPanel\\bin"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tersm\\.dotnet\\tools"
+        - "C:\\Users\\Tersm\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:573 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:546 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Python310/Scripts/"
+      - "C:/Program Files/Python310/"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/OSPanel/bin/"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tersm/.dotnet/tools/"
+      - "C:/Users/Tersm/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/CalcGTest/bin/"
+      - "C:/Program Files (x86)/CalcGTest/sbin/"
+      - "C:/Program Files (x86)/CalcGTest/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Program Files/Python310/Scripts/rc.com"
+      - "C:/Program Files/Python310/Scripts/rc.exe"
+      - "C:/Program Files/Python310/Scripts/rc"
+      - "C:/Program Files/Python310/rc.com"
+      - "C:/Program Files/Python310/rc.exe"
+      - "C:/Program Files/Python310/rc"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/rc.com"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/rc.exe"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/rc"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/rc.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/rc.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/rc"
+      - "C:/Program Files/Razer Chroma SDK/bin/rc.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/rc.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/rc"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/rc.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/rc.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/rc"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/rc.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/rc.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/rc"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/rc.com"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/rc.exe"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files (x86)/Incredibuild/rc.com"
+      - "C:/Program Files (x86)/Incredibuild/rc.exe"
+      - "C:/Program Files (x86)/Incredibuild/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/rc.com"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/rc.exe"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/OSPanel/bin/rc.com"
+      - "C:/OSPanel/bin/rc.exe"
+      - "C:/OSPanel/bin/rc"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/Tersm/.dotnet/tools/rc.com"
+      - "C:/Users/Tersm/.dotnet/tools/rc.exe"
+      - "C:/Users/Tersm/.dotnet/tools/rc"
+      - "C:/Users/Tersm/AppData/Roaming/npm/rc.com"
+      - "C:/Users/Tersm/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/Tersm/AppData/Roaming/npm/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/CalcGTest/bin/rc.com"
+      - "C:/Program Files (x86)/CalcGTest/bin/rc.exe"
+      - "C:/Program Files (x86)/CalcGTest/bin/rc"
+      - "C:/Program Files (x86)/CalcGTest/sbin/rc.com"
+      - "C:/Program Files (x86)/CalcGTest/sbin/rc.exe"
+      - "C:/Program Files (x86)/CalcGTest/sbin/rc"
+      - "C:/Program Files (x86)/CalcGTest/rc.com"
+      - "C:/Program Files (x86)/CalcGTest/rc.exe"
+      - "C:/Program Files (x86)/CalcGTest/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python310\\Scripts\\"
+        - "C:\\Program Files\\Python310\\"
+        - "D:\\\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0430\u0438 \u0433\u043e\u043b\u043e\u0441\\RVC-beta0717"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OSPanel\\bin"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tersm\\.dotnet\\tools"
+        - "C:\\Users\\Tersm\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CalcGTest"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/CalcGTest"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-us9hdt"
+      binary: "C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-us9hdt"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-us9hdt'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e39be.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 10.07.2025 13:31:29.
+        
+        Проект "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-us9hdt\\cmTC_e39be.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_e39be.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-us9hdt\\Debug\\".
+          Создание каталога "cmTC_e39be.dir\\Debug\\cmTC_e39be.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_e39be.dir\\Debug\\cmTC_e39be.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_e39be.dir\\Debug\\cmTC_e39be.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_e39be.dir\\Debug\\\\" /Fd"cmTC_e39be.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_e39be.dir\\Debug\\\\" /Fd"cmTC_e39be.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-us9hdt\\Debug\\cmTC_e39be.exe" /INCREMENTAL /ILK:"cmTC_e39be.dir\\Debug\\cmTC_e39be.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-us9hdt/Debug/cmTC_e39be.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-us9hdt/Debug/cmTC_e39be.lib" /MACHINE:X64  /machine:x64 cmTC_e39be.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e39be.vcxproj -> C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-us9hdt\\Debug\\cmTC_e39be.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_e39be.dir\\Debug\\cmTC_e39be.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_e39be.dir\\Debug\\cmTC_e39be.tlog\\cmTC_e39be.lastbuildstate".
+        Сборка проекта "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-us9hdt\\cmTC_e39be.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.43
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33521.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/_deps/googletest-src/CMakeLists.txt:14 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python310\\Scripts\\"
+        - "C:\\Program Files\\Python310\\"
+        - "D:\\\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0430\u0438 \u0433\u043e\u043b\u043e\u0441\\RVC-beta0717"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OSPanel\\bin"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tersm\\.dotnet\\tools"
+        - "C:\\Users\\Tersm\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CalcGTest"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/CalcGTest"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/_deps/googletest-src/CMakeLists.txt:14 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+      Сборка начата 10.07.2025 13:31:33.
+      
+      Проект "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.53
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/4.1.0-rc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "build/_deps/googletest-src/CMakeLists.txt:14 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Python310/Scripts/"
+      - "C:/Program Files/Python310/"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/OSPanel/bin/"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tersm/.dotnet/tools/"
+      - "C:/Users/Tersm/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/CalcGTest/bin/"
+      - "C:/Program Files (x86)/CalcGTest/sbin/"
+      - "C:/Program Files (x86)/CalcGTest/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files/Python310/Scripts/lld-link.com"
+      - "C:/Program Files/Python310/Scripts/lld-link.exe"
+      - "C:/Program Files/Python310/Scripts/lld-link"
+      - "C:/Program Files/Python310/lld-link.com"
+      - "C:/Program Files/Python310/lld-link.exe"
+      - "C:/Program Files/Python310/lld-link"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/lld-link.com"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/lld-link.exe"
+      - "D:/\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430/lld-link"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link"
+      - "C:/Program Files/Razer Chroma SDK/bin/lld-link.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/lld-link.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/lld-link"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/lld-link.com"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/lld-link.exe"
+      - "D:/\u0430\u0438 \u0433\u043e\u043b\u043e\u0441/RVC-beta0717/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files (x86)/Incredibuild/lld-link.com"
+      - "C:/Program Files (x86)/Incredibuild/lld-link.exe"
+      - "C:/Program Files (x86)/Incredibuild/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/lld-link.com"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Users/Tersm/AppData/Local/Programs/cursor/resources/app/bin/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/OSPanel/bin/lld-link.com"
+      - "C:/OSPanel/bin/lld-link.exe"
+      - "C:/OSPanel/bin/lld-link"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Tersm/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Tersm/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Tersm/.dotnet/tools/lld-link.com"
+      - "C:/Users/Tersm/.dotnet/tools/lld-link.exe"
+      - "C:/Users/Tersm/.dotnet/tools/lld-link"
+      - "C:/Users/Tersm/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Tersm/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Tersm/AppData/Roaming/npm/lld-link"
+      - "C:/Program Files/bin/lld-link.com"
+      - "C:/Program Files/bin/lld-link.exe"
+      - "C:/Program Files/bin/lld-link"
+      - "C:/Program Files/sbin/lld-link.com"
+      - "C:/Program Files/sbin/lld-link.exe"
+      - "C:/Program Files/sbin/lld-link"
+      - "C:/Program Files/lld-link.com"
+      - "C:/Program Files/lld-link.exe"
+      - "C:/Program Files/lld-link"
+      - "C:/Program Files (x86)/bin/lld-link.com"
+      - "C:/Program Files (x86)/bin/lld-link.exe"
+      - "C:/Program Files (x86)/bin/lld-link"
+      - "C:/Program Files (x86)/sbin/lld-link.com"
+      - "C:/Program Files (x86)/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/sbin/lld-link"
+      - "C:/Program Files (x86)/lld-link.com"
+      - "C:/Program Files (x86)/lld-link.exe"
+      - "C:/Program Files (x86)/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/CMake/sbin/lld-link.com"
+      - "C:/Program Files/CMake/sbin/lld-link.exe"
+      - "C:/Program Files/CMake/sbin/lld-link"
+      - "C:/Program Files/CMake/lld-link.com"
+      - "C:/Program Files/CMake/lld-link.exe"
+      - "C:/Program Files/CMake/lld-link"
+      - "C:/Program Files (x86)/CalcGTest/bin/lld-link.com"
+      - "C:/Program Files (x86)/CalcGTest/bin/lld-link.exe"
+      - "C:/Program Files (x86)/CalcGTest/bin/lld-link"
+      - "C:/Program Files (x86)/CalcGTest/sbin/lld-link.com"
+      - "C:/Program Files (x86)/CalcGTest/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/CalcGTest/sbin/lld-link"
+      - "C:/Program Files (x86)/CalcGTest/lld-link.com"
+      - "C:/Program Files (x86)/CalcGTest/lld-link.exe"
+      - "C:/Program Files (x86)/CalcGTest/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python310\\Scripts\\"
+        - "C:\\Program Files\\Python310\\"
+        - "D:\\\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0430\u0438 \u0433\u043e\u043b\u043e\u0441\\RVC-beta0717"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OSPanel\\bin"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tersm\\.dotnet\\tools"
+        - "C:\\Users\\Tersm\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CalcGTest"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/CalcGTest"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/googletest-src/CMakeLists.txt:14 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-i7lnjg"
+      binary: "C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-i7lnjg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-i7lnjg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_32b20.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 10.07.2025 13:31:34.
+        
+        Проект "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i7lnjg\\cmTC_32b20.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_32b20.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i7lnjg\\Debug\\".
+          Создание каталога "cmTC_32b20.dir\\Debug\\cmTC_32b20.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_32b20.dir\\Debug\\cmTC_32b20.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_32b20.dir\\Debug\\cmTC_32b20.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_32b20.dir\\Debug\\\\" /Fd"cmTC_32b20.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_32b20.dir\\Debug\\\\" /Fd"cmTC_32b20.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i7lnjg\\Debug\\cmTC_32b20.exe" /INCREMENTAL /ILK:"cmTC_32b20.dir\\Debug\\cmTC_32b20.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-i7lnjg/Debug/cmTC_32b20.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-i7lnjg/Debug/cmTC_32b20.lib" /MACHINE:X64  /machine:x64 cmTC_32b20.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_32b20.vcxproj -> C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i7lnjg\\Debug\\cmTC_32b20.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_32b20.dir\\Debug\\cmTC_32b20.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_32b20.dir\\Debug\\cmTC_32b20.tlog\\cmTC_32b20.lastbuildstate".
+        Сборка проекта "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i7lnjg\\cmTC_32b20.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.45
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/googletest-src/CMakeLists.txt:14 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/googletest-src/CMakeLists.txt:14 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33521.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython/Support.cmake:2173 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython.cmake:706 (include)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:249 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:86 (include)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14"
+      - "python3"
+      - "python"
+      - "ipy3.14"
+      - "ipy3"
+      - "ipy64"
+      - "ipy32"
+      - "ipy"
+      - "ipy.exe"
+    candidate_directories:
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "/REGISTRY-NOTFOUND/Scripts/"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/"
+      - "/REGISTRY-NOTFOUND/net45/"
+      - "/REGISTRY-NOTFOUND/net40/"
+      - "/REGISTRY-NOTFOUND/"
+    searched_directories:
+      - "/REGISTRY-NOTFOUND/bin/python3.14.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3.14"
+      - "/REGISTRY-NOTFOUND/bin/python3.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3"
+      - "/REGISTRY-NOTFOUND/bin/python.com"
+      - "/REGISTRY-NOTFOUND/bin/python.exe"
+      - "/REGISTRY-NOTFOUND/bin/python"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.14"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy3"
+      - "/REGISTRY-NOTFOUND/bin/ipy64.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy64"
+      - "/REGISTRY-NOTFOUND/bin/ipy32.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy32"
+      - "/REGISTRY-NOTFOUND/bin/ipy.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.14.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.14"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3"
+      - "/REGISTRY-NOTFOUND/Scripts/python.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.14"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.14.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.14"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.14"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy64.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy64"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy32.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy32"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3.14.com"
+      - "/REGISTRY-NOTFOUND/net45/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3.14"
+      - "/REGISTRY-NOTFOUND/net45/python3.com"
+      - "/REGISTRY-NOTFOUND/net45/python3.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3"
+      - "/REGISTRY-NOTFOUND/net45/python.com"
+      - "/REGISTRY-NOTFOUND/net45/python.exe"
+      - "/REGISTRY-NOTFOUND/net45/python"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.14"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy3"
+      - "/REGISTRY-NOTFOUND/net45/ipy64.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy64"
+      - "/REGISTRY-NOTFOUND/net45/ipy32.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy32"
+      - "/REGISTRY-NOTFOUND/net45/ipy.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3.14.com"
+      - "/REGISTRY-NOTFOUND/net40/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3.14"
+      - "/REGISTRY-NOTFOUND/net40/python3.com"
+      - "/REGISTRY-NOTFOUND/net40/python3.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3"
+      - "/REGISTRY-NOTFOUND/net40/python.com"
+      - "/REGISTRY-NOTFOUND/net40/python.exe"
+      - "/REGISTRY-NOTFOUND/net40/python"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.14"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy3"
+      - "/REGISTRY-NOTFOUND/net40/ipy64.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy64"
+      - "/REGISTRY-NOTFOUND/net40/ipy32.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy32"
+      - "/REGISTRY-NOTFOUND/net40/ipy.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
+      - "/REGISTRY-NOTFOUND/python3.14.com"
+      - "/REGISTRY-NOTFOUND/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/python3.14"
+      - "/REGISTRY-NOTFOUND/python3.com"
+      - "/REGISTRY-NOTFOUND/python3.exe"
+      - "/REGISTRY-NOTFOUND/python3"
+      - "/REGISTRY-NOTFOUND/python.com"
+      - "/REGISTRY-NOTFOUND/python.exe"
+      - "/REGISTRY-NOTFOUND/python"
+      - "/REGISTRY-NOTFOUND/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/ipy3.14"
+      - "/REGISTRY-NOTFOUND/ipy3.com"
+      - "/REGISTRY-NOTFOUND/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/ipy3"
+      - "/REGISTRY-NOTFOUND/ipy64.com"
+      - "/REGISTRY-NOTFOUND/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/ipy64"
+      - "/REGISTRY-NOTFOUND/ipy32.com"
+      - "/REGISTRY-NOTFOUND/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/ipy32"
+      - "/REGISTRY-NOTFOUND/ipy.com"
+      - "/REGISTRY-NOTFOUND/ipy.exe"
+      - "/REGISTRY-NOTFOUND/ipy"
+      - "/REGISTRY-NOTFOUND/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/ipy.exe"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python310\\Scripts\\"
+        - "C:\\Program Files\\Python310\\"
+        - "D:\\\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0430\u0438 \u0433\u043e\u043b\u043e\u0441\\RVC-beta0717"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OSPanel\\bin"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tersm\\.dotnet\\tools"
+        - "C:\\Users\\Tersm\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CalcGTest"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/CalcGTest"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython/Support.cmake:2173 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython.cmake:706 (include)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:249 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:86 (include)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.10"
+      - "python3"
+      - "python"
+      - "ipy3.10"
+      - "ipy3"
+      - "ipy64"
+      - "ipy32"
+      - "ipy"
+      - "ipy.exe"
+    candidate_directories:
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "/REGISTRY-NOTFOUND/Scripts/"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/"
+      - "/REGISTRY-NOTFOUND/net45/"
+      - "/REGISTRY-NOTFOUND/net40/"
+      - "/REGISTRY-NOTFOUND/"
+      - "C:/Program Files/Python310/bin/"
+      - "C:/Program Files/Python310/Scripts/"
+      - "C:/Program Files/Python310/share/ironpython3.10/"
+      - "C:/Program Files/Python310/net45/"
+      - "C:/Program Files/Python310/net40/"
+      - "C:/Program Files/Python310/"
+    searched_directories:
+      - "/REGISTRY-NOTFOUND/bin/python3.10.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.10.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3.10"
+      - "/REGISTRY-NOTFOUND/bin/python3.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3"
+      - "/REGISTRY-NOTFOUND/bin/python.com"
+      - "/REGISTRY-NOTFOUND/bin/python.exe"
+      - "/REGISTRY-NOTFOUND/bin/python"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.10.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.10.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.10"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy3"
+      - "/REGISTRY-NOTFOUND/bin/ipy64.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy64"
+      - "/REGISTRY-NOTFOUND/bin/ipy32.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy32"
+      - "/REGISTRY-NOTFOUND/bin/ipy.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.10.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.10.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.10"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3"
+      - "/REGISTRY-NOTFOUND/Scripts/python.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.10.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.10.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.10"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/python3.10.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/python3.10.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/python3.10"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/python3.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/python3.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/python3"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/python.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/python.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/python"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/ipy3.10.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/ipy3.10.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/ipy3.10"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/ipy3.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/ipy3"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/ipy64.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/ipy64"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/ipy32.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/ipy32"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/ipy.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/ipy.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/ipy"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.10/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3.10.com"
+      - "/REGISTRY-NOTFOUND/net45/python3.10.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3.10"
+      - "/REGISTRY-NOTFOUND/net45/python3.com"
+      - "/REGISTRY-NOTFOUND/net45/python3.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3"
+      - "/REGISTRY-NOTFOUND/net45/python.com"
+      - "/REGISTRY-NOTFOUND/net45/python.exe"
+      - "/REGISTRY-NOTFOUND/net45/python"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.10.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.10.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.10"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy3"
+      - "/REGISTRY-NOTFOUND/net45/ipy64.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy64"
+      - "/REGISTRY-NOTFOUND/net45/ipy32.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy32"
+      - "/REGISTRY-NOTFOUND/net45/ipy.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3.10.com"
+      - "/REGISTRY-NOTFOUND/net40/python3.10.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3.10"
+      - "/REGISTRY-NOTFOUND/net40/python3.com"
+      - "/REGISTRY-NOTFOUND/net40/python3.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3"
+      - "/REGISTRY-NOTFOUND/net40/python.com"
+      - "/REGISTRY-NOTFOUND/net40/python.exe"
+      - "/REGISTRY-NOTFOUND/net40/python"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.10.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.10.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.10"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy3"
+      - "/REGISTRY-NOTFOUND/net40/ipy64.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy64"
+      - "/REGISTRY-NOTFOUND/net40/ipy32.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy32"
+      - "/REGISTRY-NOTFOUND/net40/ipy.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
+      - "/REGISTRY-NOTFOUND/python3.10.com"
+      - "/REGISTRY-NOTFOUND/python3.10.exe"
+      - "/REGISTRY-NOTFOUND/python3.10"
+      - "/REGISTRY-NOTFOUND/python3.com"
+      - "/REGISTRY-NOTFOUND/python3.exe"
+      - "/REGISTRY-NOTFOUND/python3"
+      - "/REGISTRY-NOTFOUND/python.com"
+      - "/REGISTRY-NOTFOUND/python.exe"
+      - "/REGISTRY-NOTFOUND/python"
+      - "/REGISTRY-NOTFOUND/ipy3.10.com"
+      - "/REGISTRY-NOTFOUND/ipy3.10.exe"
+      - "/REGISTRY-NOTFOUND/ipy3.10"
+      - "/REGISTRY-NOTFOUND/ipy3.com"
+      - "/REGISTRY-NOTFOUND/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/ipy3"
+      - "/REGISTRY-NOTFOUND/ipy64.com"
+      - "/REGISTRY-NOTFOUND/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/ipy64"
+      - "/REGISTRY-NOTFOUND/ipy32.com"
+      - "/REGISTRY-NOTFOUND/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/ipy32"
+      - "/REGISTRY-NOTFOUND/ipy.com"
+      - "/REGISTRY-NOTFOUND/ipy.exe"
+      - "/REGISTRY-NOTFOUND/ipy"
+      - "/REGISTRY-NOTFOUND/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/ipy.exe"
+      - "C:/Program Files/Python310/bin/python3.10.com"
+      - "C:/Program Files/Python310/bin/python3.10.exe"
+      - "C:/Program Files/Python310/bin/python3.10"
+      - "C:/Program Files/Python310/bin/python3.com"
+      - "C:/Program Files/Python310/bin/python3.exe"
+      - "C:/Program Files/Python310/bin/python3"
+      - "C:/Program Files/Python310/bin/python.com"
+      - "C:/Program Files/Python310/bin/python.exe"
+      - "C:/Program Files/Python310/bin/python"
+      - "C:/Program Files/Python310/bin/ipy3.10.com"
+      - "C:/Program Files/Python310/bin/ipy3.10.exe"
+      - "C:/Program Files/Python310/bin/ipy3.10"
+      - "C:/Program Files/Python310/bin/ipy3.com"
+      - "C:/Program Files/Python310/bin/ipy3.exe"
+      - "C:/Program Files/Python310/bin/ipy3"
+      - "C:/Program Files/Python310/bin/ipy64.com"
+      - "C:/Program Files/Python310/bin/ipy64.exe"
+      - "C:/Program Files/Python310/bin/ipy64"
+      - "C:/Program Files/Python310/bin/ipy32.com"
+      - "C:/Program Files/Python310/bin/ipy32.exe"
+      - "C:/Program Files/Python310/bin/ipy32"
+      - "C:/Program Files/Python310/bin/ipy.com"
+      - "C:/Program Files/Python310/bin/ipy.exe"
+      - "C:/Program Files/Python310/bin/ipy"
+      - "C:/Program Files/Python310/bin/ipy.exe.com"
+      - "C:/Program Files/Python310/bin/ipy.exe"
+      - "C:/Program Files/Python310/Scripts/python3.10.com"
+      - "C:/Program Files/Python310/Scripts/python3.10.exe"
+      - "C:/Program Files/Python310/Scripts/python3.10"
+      - "C:/Program Files/Python310/Scripts/python3.com"
+      - "C:/Program Files/Python310/Scripts/python3.exe"
+      - "C:/Program Files/Python310/Scripts/python3"
+      - "C:/Program Files/Python310/Scripts/python.com"
+      - "C:/Program Files/Python310/Scripts/python.exe"
+      - "C:/Program Files/Python310/Scripts/python"
+      - "C:/Program Files/Python310/Scripts/ipy3.10.com"
+      - "C:/Program Files/Python310/Scripts/ipy3.10.exe"
+      - "C:/Program Files/Python310/Scripts/ipy3.10"
+      - "C:/Program Files/Python310/Scripts/ipy3.com"
+      - "C:/Program Files/Python310/Scripts/ipy3.exe"
+      - "C:/Program Files/Python310/Scripts/ipy3"
+      - "C:/Program Files/Python310/Scripts/ipy64.com"
+      - "C:/Program Files/Python310/Scripts/ipy64.exe"
+      - "C:/Program Files/Python310/Scripts/ipy64"
+      - "C:/Program Files/Python310/Scripts/ipy32.com"
+      - "C:/Program Files/Python310/Scripts/ipy32.exe"
+      - "C:/Program Files/Python310/Scripts/ipy32"
+      - "C:/Program Files/Python310/Scripts/ipy.com"
+      - "C:/Program Files/Python310/Scripts/ipy.exe"
+      - "C:/Program Files/Python310/Scripts/ipy"
+      - "C:/Program Files/Python310/Scripts/ipy.exe.com"
+      - "C:/Program Files/Python310/Scripts/ipy.exe"
+      - "C:/Program Files/Python310/share/ironpython3.10/python3.10.com"
+      - "C:/Program Files/Python310/share/ironpython3.10/python3.10.exe"
+      - "C:/Program Files/Python310/share/ironpython3.10/python3.10"
+      - "C:/Program Files/Python310/share/ironpython3.10/python3.com"
+      - "C:/Program Files/Python310/share/ironpython3.10/python3.exe"
+      - "C:/Program Files/Python310/share/ironpython3.10/python3"
+      - "C:/Program Files/Python310/share/ironpython3.10/python.com"
+      - "C:/Program Files/Python310/share/ironpython3.10/python.exe"
+      - "C:/Program Files/Python310/share/ironpython3.10/python"
+      - "C:/Program Files/Python310/share/ironpython3.10/ipy3.10.com"
+      - "C:/Program Files/Python310/share/ironpython3.10/ipy3.10.exe"
+      - "C:/Program Files/Python310/share/ironpython3.10/ipy3.10"
+      - "C:/Program Files/Python310/share/ironpython3.10/ipy3.com"
+      - "C:/Program Files/Python310/share/ironpython3.10/ipy3.exe"
+      - "C:/Program Files/Python310/share/ironpython3.10/ipy3"
+      - "C:/Program Files/Python310/share/ironpython3.10/ipy64.com"
+      - "C:/Program Files/Python310/share/ironpython3.10/ipy64.exe"
+      - "C:/Program Files/Python310/share/ironpython3.10/ipy64"
+      - "C:/Program Files/Python310/share/ironpython3.10/ipy32.com"
+      - "C:/Program Files/Python310/share/ironpython3.10/ipy32.exe"
+      - "C:/Program Files/Python310/share/ironpython3.10/ipy32"
+      - "C:/Program Files/Python310/share/ironpython3.10/ipy.com"
+      - "C:/Program Files/Python310/share/ironpython3.10/ipy.exe"
+      - "C:/Program Files/Python310/share/ironpython3.10/ipy"
+      - "C:/Program Files/Python310/share/ironpython3.10/ipy.exe.com"
+      - "C:/Program Files/Python310/share/ironpython3.10/ipy.exe"
+      - "C:/Program Files/Python310/net45/python3.10.com"
+      - "C:/Program Files/Python310/net45/python3.10.exe"
+      - "C:/Program Files/Python310/net45/python3.10"
+      - "C:/Program Files/Python310/net45/python3.com"
+      - "C:/Program Files/Python310/net45/python3.exe"
+      - "C:/Program Files/Python310/net45/python3"
+      - "C:/Program Files/Python310/net45/python.com"
+      - "C:/Program Files/Python310/net45/python.exe"
+      - "C:/Program Files/Python310/net45/python"
+      - "C:/Program Files/Python310/net45/ipy3.10.com"
+      - "C:/Program Files/Python310/net45/ipy3.10.exe"
+      - "C:/Program Files/Python310/net45/ipy3.10"
+      - "C:/Program Files/Python310/net45/ipy3.com"
+      - "C:/Program Files/Python310/net45/ipy3.exe"
+      - "C:/Program Files/Python310/net45/ipy3"
+      - "C:/Program Files/Python310/net45/ipy64.com"
+      - "C:/Program Files/Python310/net45/ipy64.exe"
+      - "C:/Program Files/Python310/net45/ipy64"
+      - "C:/Program Files/Python310/net45/ipy32.com"
+      - "C:/Program Files/Python310/net45/ipy32.exe"
+      - "C:/Program Files/Python310/net45/ipy32"
+      - "C:/Program Files/Python310/net45/ipy.com"
+      - "C:/Program Files/Python310/net45/ipy.exe"
+      - "C:/Program Files/Python310/net45/ipy"
+      - "C:/Program Files/Python310/net45/ipy.exe.com"
+      - "C:/Program Files/Python310/net45/ipy.exe"
+      - "C:/Program Files/Python310/net40/python3.10.com"
+      - "C:/Program Files/Python310/net40/python3.10.exe"
+      - "C:/Program Files/Python310/net40/python3.10"
+      - "C:/Program Files/Python310/net40/python3.com"
+      - "C:/Program Files/Python310/net40/python3.exe"
+      - "C:/Program Files/Python310/net40/python3"
+      - "C:/Program Files/Python310/net40/python.com"
+      - "C:/Program Files/Python310/net40/python.exe"
+      - "C:/Program Files/Python310/net40/python"
+      - "C:/Program Files/Python310/net40/ipy3.10.com"
+      - "C:/Program Files/Python310/net40/ipy3.10.exe"
+      - "C:/Program Files/Python310/net40/ipy3.10"
+      - "C:/Program Files/Python310/net40/ipy3.com"
+      - "C:/Program Files/Python310/net40/ipy3.exe"
+      - "C:/Program Files/Python310/net40/ipy3"
+      - "C:/Program Files/Python310/net40/ipy64.com"
+      - "C:/Program Files/Python310/net40/ipy64.exe"
+      - "C:/Program Files/Python310/net40/ipy64"
+      - "C:/Program Files/Python310/net40/ipy32.com"
+      - "C:/Program Files/Python310/net40/ipy32.exe"
+      - "C:/Program Files/Python310/net40/ipy32"
+      - "C:/Program Files/Python310/net40/ipy.com"
+      - "C:/Program Files/Python310/net40/ipy.exe"
+      - "C:/Program Files/Python310/net40/ipy"
+      - "C:/Program Files/Python310/net40/ipy.exe.com"
+      - "C:/Program Files/Python310/net40/ipy.exe"
+      - "C:/Program Files/Python310/python3.10.com"
+      - "C:/Program Files/Python310/python3.10.exe"
+      - "C:/Program Files/Python310/python3.10"
+      - "C:/Program Files/Python310/python3.com"
+      - "C:/Program Files/Python310/python3.exe"
+      - "C:/Program Files/Python310/python3"
+      - "C:/Program Files/Python310/python.com"
+    found: "C:/Program Files/Python310/python.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python310\\Scripts\\"
+        - "C:\\Program Files\\Python310\\"
+        - "D:\\\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0430\u0438 \u0433\u043e\u043b\u043e\u0441\\RVC-beta0717"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OSPanel\\bin"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tersm\\.dotnet\\tools"
+        - "C:\\Users\\Tersm\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CalcGTest"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/CalcGTest"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython/Support.cmake:2430 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython.cmake:706 (include)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:249 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:86 (include)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.10_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Program Files/Python310/"
+    searched_directories:
+      - "C:/Program Files/Python310/python3.10_d.com"
+      - "C:/Program Files/Python310/python3.10_d.exe"
+      - "C:/Program Files/Python310/python3.10_d"
+      - "C:/Program Files/Python310/python3_d.com"
+      - "C:/Program Files/Python310/python3_d.exe"
+      - "C:/Program Files/Python310/python3_d"
+      - "C:/Program Files/Python310/python_d.com"
+      - "C:/Program Files/Python310/python_d.exe"
+      - "C:/Program Files/Python310/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python310\\Scripts\\"
+        - "C:\\Program Files\\Python310\\"
+        - "D:\\\u0430\u0438 \u0437\u0430\u043c\u0435\u043d\u0430 \u043b\u0438\u0446\u0430"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0430\u0438 \u0433\u043e\u043b\u043e\u0441\\RVC-beta0717"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "c:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OSPanel\\bin"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tersm\\.dotnet\\tools"
+        - "C:\\Users\\Tersm\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tersm\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CalcGTest"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/CalcGTest"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-x4rr3i"
+      binary: "C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-x4rr3i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-x4rr3i'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c76eb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 10.07.2025 13:31:36.
+        
+        Проект "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4rr3i\\cmTC_c76eb.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_c76eb.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4rr3i\\Debug\\".
+          Создание каталога "cmTC_c76eb.dir\\Debug\\cmTC_c76eb.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_c76eb.dir\\Debug\\cmTC_c76eb.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_c76eb.dir\\Debug\\cmTC_c76eb.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c76eb.dir\\Debug\\\\" /Fd"cmTC_c76eb.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4rr3i\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c76eb.dir\\Debug\\\\" /Fd"cmTC_c76eb.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4rr3i\\src.c"
+          src.c
+        C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4rr3i\\src.c(1,10): error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4rr3i\\cmTC_c76eb.vcxproj]
+        Сборка проекта "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4rr3i\\cmTC_c76eb.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4rr3i\\cmTC_c76eb.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4rr3i\\src.c(1,10): error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4rr3i\\cmTC_c76eb.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.31
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-on3osb"
+      binary: "C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-on3osb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-on3osb'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dd2fa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 10.07.2025 13:31:36.
+        
+        Проект "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-on3osb\\cmTC_dd2fa.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_dd2fa.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-on3osb\\Debug\\".
+          Создание каталога "cmTC_dd2fa.dir\\Debug\\cmTC_dd2fa.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_dd2fa.dir\\Debug\\cmTC_dd2fa.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_dd2fa.dir\\Debug\\cmTC_dd2fa.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_dd2fa.dir\\Debug\\\\" /Fd"cmTC_dd2fa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-on3osb\\CheckFunctionExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_dd2fa.dir\\Debug\\\\" /Fd"cmTC_dd2fa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-on3osb\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-on3osb\\Debug\\cmTC_dd2fa.exe" /INCREMENTAL /ILK:"cmTC_dd2fa.dir\\Debug\\cmTC_dd2fa.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-on3osb/Debug/cmTC_dd2fa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-on3osb/Debug/cmTC_dd2fa.lib" /MACHINE:X64  /machine:x64 cmTC_dd2fa.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-on3osb\\cmTC_dd2fa.vcxproj]
+        Сборка проекта "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-on3osb\\cmTC_dd2fa.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-on3osb\\cmTC_dd2fa.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-on3osb\\cmTC_dd2fa.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-ydlvw3"
+      binary: "C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-ydlvw3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-ydlvw3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2089b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 10.07.2025 13:31:37.
+        
+        Проект "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ydlvw3\\cmTC_2089b.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_2089b.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ydlvw3\\Debug\\".
+          Создание каталога "cmTC_2089b.dir\\Debug\\cmTC_2089b.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_2089b.dir\\Debug\\cmTC_2089b.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_2089b.dir\\Debug\\cmTC_2089b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_2089b.dir\\Debug\\\\" /Fd"cmTC_2089b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ydlvw3\\CheckFunctionExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_2089b.dir\\Debug\\\\" /Fd"cmTC_2089b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ydlvw3\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ydlvw3\\Debug\\cmTC_2089b.exe" /INCREMENTAL /ILK:"cmTC_2089b.dir\\Debug\\cmTC_2089b.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-ydlvw3/Debug/cmTC_2089b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Tersm/source/repos/Project2/Project2/build/CMakeFiles/CMakeScratch/TryCompile-ydlvw3/Debug/cmTC_2089b.lib" /MACHINE:X64  /machine:x64 cmTC_2089b.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ydlvw3\\cmTC_2089b.vcxproj]
+        Сборка проекта "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ydlvw3\\cmTC_2089b.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ydlvw3\\cmTC_2089b.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\Users\\Tersm\\source\\repos\\Project2\\Project2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ydlvw3\\cmTC_2089b.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.37
+        
+      exitCode: 1
+...
